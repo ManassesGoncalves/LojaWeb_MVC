@@ -1,7 +1,24 @@
+using LojaWeb.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = "Server=localhost;userid=root;password=hmb.1234;database=mes_dr_database";
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+// Connection to DataBase
+
+// ---- MySQL ----
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+// ---- SqlServer ----
+/* builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+*/
 
 var app = builder.Build();
 
