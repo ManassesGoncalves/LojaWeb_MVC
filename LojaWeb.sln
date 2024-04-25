@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaWeb", "LojaWeb\LojaWeb.csproj", "{78034609-4DC5-41B1-A589-F0D0BE57A130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyWebRazor", "StudyWebRazor\StudyWebRazor.csproj", "{1539C695-A773-4BFE-A850-650AB81F6C62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{78034609-4DC5-41B1-A589-F0D0BE57A130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78034609-4DC5-41B1-A589-F0D0BE57A130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78034609-4DC5-41B1-A589-F0D0BE57A130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1539C695-A773-4BFE-A850-650AB81F6C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1539C695-A773-4BFE-A850-650AB81F6C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1539C695-A773-4BFE-A850-650AB81F6C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1539C695-A773-4BFE-A850-650AB81F6C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
